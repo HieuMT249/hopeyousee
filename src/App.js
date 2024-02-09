@@ -7,7 +7,7 @@ function App() {
   const [password, setPassword] = useState("");
   const [isLoginCorrect, setIsLoginCorrect] = useState(false);
   const [isLogin, setIsLogin] = useState(true);
-  const [isClick, setClick] = useState(false);
+  const [isClick, setClick] = useState(true);
   const [isChuc, setChuc] = useState(true);
   const [isInitialLoad, setIsInitialLoad] = useState(true);
 
@@ -73,7 +73,7 @@ function App() {
               <div className="container">
                 {isClick ? (
                   <>
-                    <pre className={isClick ? "content hidden" : "content"}>
+                    <pre className={isClick ? "content" : "content hidden"}>
                       {!isInitialLoad && fileContent}
                     </pre>
                     <div className="btn-next">
@@ -85,7 +85,7 @@ function App() {
                   </>
                 ) : (
                   <>
-                    <pre className={isClick ? "content" : "content hidden"}>
+                    <pre className={isClick ? "content hidden" : "content"}>
                       {!isInitialLoad && fileContent1}
                     </pre>
                     <div className="btn-next">
@@ -93,6 +93,7 @@ function App() {
                     </div>
                   </>
                 )}
+               
               </div>
             ) : (
               <div className="chuctet">

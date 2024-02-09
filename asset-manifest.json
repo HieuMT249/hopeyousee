@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/hopeyousee/static/css/main.649ba4a4.css",
+    "main.js": "/hopeyousee/static/js/main.1ca5f737.js",
+    "static/js/592.99fac03a.chunk.js": "/hopeyousee/static/js/592.99fac03a.chunk.js",
+    "static/media/4.jpg": "/hopeyousee/static/media/4.d8d9ed739a5d37d3721d.jpg",
+    "static/media/2.jpg": "/hopeyousee/static/media/2.7e49f18bde5f34cf2be7.jpg",
+    "index.html": "/hopeyousee/index.html",
+    "main.649ba4a4.css.map": "/hopeyousee/static/css/main.649ba4a4.css.map",
+    "main.1ca5f737.js.map": "/hopeyousee/static/js/main.1ca5f737.js.map",
+    "592.99fac03a.chunk.js.map": "/hopeyousee/static/js/592.99fac03a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.649ba4a4.css",
+    "static/js/main.1ca5f737.js"
+  ]
+}
